@@ -1,0 +1,36 @@
+.cta-box {
+    max-width: 500px;
+    margin: 40px auto 0;
+    background-color: var(--bg-card);
+    padding: 32px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    text-align: left;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.form-group { margin-bottom: 20px; }
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+select, input {
+    width: 100%;
+    padding: 14px 16px;
+    background-color: #000;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+select:focus, input:focus {
+    outline: none;
+    border-color: var(--accent-yellow);
+}

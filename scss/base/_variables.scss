@@ -1,0 +1,20 @@
+:root {
+    --bg-main: #09090b;       /* Fondo súper oscuro (SaaS vibe) */
+    --bg-card: #18181b;       /* Fondo para tarjetas */
+    --bg-card-hover: #27272a; /* Hover sutil */
+    
+    --text-primary: #f4f4f5;  /* Texto principal crudo */
+    --text-secondary: #a1a1aa;/* Texto secundario / descripciones */
+    
+    /* Amarillo Caterpillar moderno para alta conversión */
+    --accent-yellow: #facc15; 
+    --accent-yellow-hover: #eab308;
+    
+    --border-color: #27272a;  /* Bordes de división limpios */
+    
+    --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+    
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+}

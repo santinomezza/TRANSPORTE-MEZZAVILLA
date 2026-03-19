@@ -1,0 +1,100 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+}
+
+.btn-large {
+    padding: 14px 28px;
+    font-size: 1.05rem;
+}
+
+.btn-primary {
+    background-color: var(--accent-yellow);
+    color: #18181b; /* Alto contraste para legibilidad */
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-yellow-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(250, 204, 21, 0.2);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+.btn-outline:hover {
+    background-color: var(--bg-card-hover);
+    border-color: var(--text-secondary);
+}
+
+.btn-block { width: 100%; }
+
+/* =========================================
+   FLOATING SOCIAL BUTTONS
+   ========================================= */
+.floating-socials {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 999;
+}
+
+.social-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-btn:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+}
+
+.whatsapp-btn:hover {
+    background-color: #20b858;
+}
+
+.instagram-btn {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+@media (max-width: 768px) {
+    .floating-socials {
+        bottom: 20px;
+        right: 20px;
+    }
+    .social-btn {
+        width: 50px;
+        height: 50px;
+    }
+    .social-btn svg {
+        width: 24px;
+        height: 24px;
+    }
+}
