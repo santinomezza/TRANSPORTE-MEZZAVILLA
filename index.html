@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEZZAVILLA | Áridos y Movimiento de Suelo</title>
+    <!-- Fuentes Modernas: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Componente Google Model Viewer para 3D real -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">MEZZAVILLA<span>.</span></div>
+            <nav class="nav-links">
+                <a href="#aridos">Áridos</a>
+                <a href="#maquinarias">Maquinarias</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <button class="btn btn-primary nav-btn" onclick="location.href='#cotizar'">Cotizar Material</button>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="badge">Especialistas en movimiento de suelo</span>
+            <h1 class="hero-title">La base sólida para <br><span class="highlight">tu proyecto.</span></h1>
+            <p class="hero-subtitle">Venta de áridos de alta calidad y alquiler de maquinaria pesada. Entrega
+                garantizada en sitio para que tu obra nunca se detenga.</p>
+            <div class="hero-actions">
+                <a href="#cotizar" class="btn btn-primary btn-large">Cotizar Materiales</a>
+                <a href="#maquinarias" class="btn btn-outline btn-large">Ver Maquinarias</a>
+            </div>
+        </div>
+        <div class="hero-bg-overlay"></div>
+    </section>
+
+    <!-- Sección: Áridos -->
+    <section id="aridos" class="section">
+        <div class="container">
+            <div class="section-header gs-reveal">
+                <h2>Áridos</h2>
+                <p>Materiales clasificados de primera calidad para construcción.</p>
+            </div>
+            <div class="grid grid-3">
+                <!-- Tarjeta 1: Arena -->
+                <div class="card product-card gs-reveal">
+                    <img src="img/Arena.webp" alt="Arena" class="card-img">
+                    <div class="card-content">
+                        <h3>Arena</h3>
+                        <p>Arena fina y gruesa ideal para revoques y hormigón.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Cotizar</button>
+                    </div>
+                </div>
+                <!-- Tarjeta 2: Ripio -->
+                <div class="card product-card gs-reveal" style="transition-delay: 0.1s;">
+                    <img src="img/RIPIO.jpg" alt="Ripio" class="card-img">
+                    <div class="card-content">
+                        <h3>Ripio</h3>
+                        <p>Ripio clasificado para caminos y drenajes.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Cotizar</button>
+                    </div>
+                </div>
+                <!-- Tarjeta 3: Piedra -->
+                <div class="card product-card gs-reveal" style="transition-delay: 0.2s;">
+                    <img src="img/PIEDRAS.jpg" alt="Piedra" class="card-img">
+                    <div class="card-content">
+                        <h3>Piedra</h3>
+                        <p>Piedra de diversas granulometrías para bases y hormigón.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Cotizar</button>
+                    </div>
+                </div>
+                <!-- Tarjeta 4: Tierra -->
+                <div class="card product-card gs-reveal" style="transition-delay: 0.3s;">
+                    <img src="img/TIERRA.png" alt="Tierra" class="card-img">
+                    <div class="card-content">
+                        <h3>Tierra</h3>
+                        <p>Tierra negra y tosca para nivelación de terrenos y jardinería.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Cotizar</button>
+                    </div>
+                </div>
+                <!-- Tarjeta 5: Material de relleno -->
+                <div class="card product-card gs-reveal" style="transition-delay: 0.4s;">
+                    <img src="img/MATERIAL-DE-RELLENO.jpg" alt="Material de relleno" class="card-img">
+                    <div class="card-content">
+                        <h3>Material de relleno</h3>
+                        <p>Material ideal para relleno profundo y levantamiento de terrenos.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Cotizar</button>
+                    </div>
+                </div>
+                <!-- Tarjeta 6: Canto Rodado -->
+                <div class="card product-card gs-reveal" style="transition-delay: 0.5s;">
+                    <img src="img/CANTO-RODADO-1.jpg" alt="Canto Rodado" class="card-img">
+                    <div class="card-content">
+                        <h3>Canto Rodado</h3>
+                        <p>Canto rodado para drenajes y decoraciones.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Cotizar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Maquinarias -->
+    <section id="maquinarias" class="section dark-section">
+        <div class="container">
+            <div class="section-header gs-reveal">
+                <h2>Maquinarias</h2>
+                <p>Flota moderna lista para operar en tu proyecto.</p>
+            </div>
+            <div class="grid grid-3">
+                <!-- Tarjeta 1 -->
+                <div class="card product-card gs-reveal">
+                    <img src="img/CAMION.png" alt="Camiones" class="card-img">
+                    <div class="card-content">
+                        <h3>Camiones</h3>
+                        <p>Camiones volcadores para transporte pesado de materiales.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Consultar</button>
+                    </div>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="card product-card gs-reveal" style="transition-delay: 0.1s;">
+                    <img src="img/RETRO-1.jpeg" alt="Retroexcavadora" class="card-img">
+                    <div class="card-content">
+                        <h3>Retroexcavadora</h3>
+                        <p>Equipos versátiles para excavación y carga profunda.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Consultar</button>
+                    </div>
+                </div>
+                <!-- Tarjeta 3 -->
+                <div class="card product-card gs-reveal" style="transition-delay: 0.2s;">
+                    <img src="img/Minicargadora.png" alt="Minicargadora" class="card-img">
+                    <div class="card-content">
+                        <h3>Minicargadora</h3>
+                        <p>Ideal para trabajos en espacios reducidos y movimiento rápido.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Consultar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Servicios -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <div class="section-header gs-reveal">
+                <h2>Servicios</h2>
+                <p>Soluciones integrales para el movimiento de suelo y preparación de terrenos.</p>
+            </div>
+            <div class="grid grid-3">
+                <!-- Tarjeta 1 -->
+                <div class="card product-card gs-reveal">
+                    <img src="img/Limpieza.png" alt="Limpieza de terrenos" class="card-img">
+                    <div class="card-content">
+                        <h3>Limpieza de terrenos</h3>
+                        <p>Despeje rápido y preparación de lotes para inicio de obras.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Consultar</button>
+                    </div>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="card product-card gs-reveal" style="transition-delay: 0.1s;">
+                    <img src="img/RETRO-2.jpg" alt="Rellenos y emparejamientos" class="card-img">
+                    <div class="card-content">
+                        <h3>Rellenos y emparejamientos</h3>
+                        <p>Nivelación precisa de superficies y compactación de suelos.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Consultar</button>
+                    </div>
+                </div>
+                <!-- Tarjeta 3 -->
+                <div class="card product-card gs-reveal" style="transition-delay: 0.2s;">
+                    <img src="img/Desmonte.png" alt="Desmontes en general" class="card-img">
+                    <div class="card-content">
+                        <h3>Desmontes en general</h3>
+                        <p>Movimiento de suelo masivo y retiro de material excedente.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Consultar</button>
+                    </div>
+                </div>
+                <!-- Tarjeta 4 -->
+                <div class="card product-card gs-reveal" style="transition-delay: 0.2s;">
+                    <img src="img/Minicargadora.png" alt="Desmontes en general" class="card-img">
+                    <div class="card-content">
+                        <h3>Exvavaciones para piletas</h3>
+                        <p>Movimiento de suelo masivo y retiro de material excedente.</p>
+                        <button class="btn btn-block btn-outline mt-4"
+                            onclick="location.href='#cotizar'">Consultar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cotizador / Contacto -->
+    <section id="cotizar" class="section cta-section">
+        <div class="container text-center">
+            <h2 class="gs-reveal">¿Listo para empezar tu obra?</h2>
+            <p class="gs-reveal">Seleccioná el material o servicio y recibí una cotización al instante por WhatsApp.</p>
+            <div class="cta-box gs-reveal">
+                <form class="simple-form">
+                    <div class="form-group">
+                        <label>Material / Servicio Necesitado</label>
+                        <select id="cotizar-material">
+                            <option>Arena</option>
+                            <option>Ripio</option>
+                            <option>Piedra</option>
+                            <option>Tierra</option>
+                            <option>Material de relleno</option>
+                            <option>Canto Rodado</option>
+                            <option>Alquiler de Camiones</option>
+                            <option>Alquiler de Retroexcavadora</option>
+                            <option>Alquiler de Minicargadora</option>
+                            <option>Servicios varios / Movimiento de suelo</option>
+                        </select>
+                    </div>
+                    <button type="button" id="btn-cotizar" class="btn btn-primary btn-large w-100">Solicitar Presupuesto
+                        Ya</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>MEZZAVILLA<span>.</span></h3>
+                <p>Especialistas en movimiento de suelo y venta de áridos para obras de todos los tamaños.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces Rápidos</h4>
+                <a href="#aridos">Catálogo de Áridos</a>
+                <a href="#maquinarias">Flota de Maquinarias</a>
+                <a href="#servicios">Nuestros Servicios</a>
+                <a href="#cotizar">Cotizar Materiales</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p>📍 Santa Rosa / Valle Viejo / Catamarca</p>
+                <p>📞 +54 9 3834 92-3567</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Mezzavilla. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Social Buttons -->
+    <div class="floating-socials">
+        <a href="https://wa.me/5493834923567" target="_blank" class="social-btn whatsapp-btn" aria-label="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-message-circle">
+                <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                </path>
+            </svg>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="social-btn instagram-btn" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-instagram">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+        </a>
+    </div>
+
+    <!-- GSAP (Animaciones Performativas) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Script principal -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
